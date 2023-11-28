@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 :root{
     --primary-color:#333;
@@ -405,6 +406,8 @@ hr{
 #slider p{
     margin: 0 5px 0 ;
 }
+
+#slider3,
 #slider1{
     height: 400px;
     text-emphasis: none;
@@ -519,9 +522,11 @@ ul{
     list-style: none;
 }
 
-.footer{
-    background-color: #919191;
+footer{
+    /* background-color: #919191; */
     padding: 70px 0;
+    /* margin-top: 20px; */
+    
 }
 .footer-col{
     width: 25%;
